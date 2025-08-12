@@ -192,8 +192,8 @@ const Index = () => {
               size="lg"
               className="btn-hero"
             >
-              <a 
-                href="/how-it-works"
+              <a
+               href="/howitworks"
               >
                 Learn More About Our Process
               </a>

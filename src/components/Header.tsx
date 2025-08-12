@@ -28,7 +28,7 @@ const Header = () => {
               <Zap className="absolute -top-1 -right-1 h-4 w-4 text-accent animate-pulse" />
             </div>
             <span className="font-heading font-bold text-xl text-gradient-primary">
-              AI Contact
+              Vecta Connect
             </span>
           </Link>
 
