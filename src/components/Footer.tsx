@@ -3,14 +3,14 @@ import { Brain, Zap, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white">
+    <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-3">
               <div className="relative">
-                <Brain className="h-8 w-8 text-white" />
+                <Brain className="h-8 w-8 text-primary-foreground" />
                 <Zap className="absolute -top-1 -right-1 h-4 w-4 text-accent animate-pulse" />
               </div>
               <span className="font-heading font-bold text-xl">

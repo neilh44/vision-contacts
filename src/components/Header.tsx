@@ -18,16 +18,16 @@ const Header = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-primary text-primary-foreground shadow-medium">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative">
-              <Brain className="h-8 w-8 text-primary-foreground group-hover:text-accent transition-colors duration-300" />
+              <Brain className="h-8 w-8 text-primary group-hover:text-secondary transition-colors duration-300" />
               <Zap className="absolute -top-1 -right-1 h-4 w-4 text-accent animate-pulse" />
             </div>
-            <span className="font-heading font-bold text-xl text-primary-foreground">
+            <span className="font-heading font-bold text-xl text-gradient-primary">
               AI Contact
             </span>
           </Link>
@@ -38,10 +38,10 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                className={`text-sm font-medium transition-colors duration-200 hover:text-accent ${
+                className={`text-sm font-medium transition-colors duration-200 hover:text-primary ${
                   isActive(item.href)
-                    ? "text-accent border-b-2 border-accent"
-                    : "text-primary-foreground/80"
+                    ? "text-primary border-b-2 border-primary"
+                    : "text-muted-foreground"
                 }`}
               >
                 {item.name}
@@ -54,7 +54,7 @@ const Header = () => {
             <Button
               variant="ghost"
               asChild
-              className="text-primary-foreground hover:text-accent transition-colors"
+              className="text-primary hover:text-primary-glow"
             >
               <a 
                 href="https://contact-management-49cg.onrender.com" 
