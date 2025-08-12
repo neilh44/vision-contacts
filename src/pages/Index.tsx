@@ -50,12 +50,12 @@ const Index = () => {
         <div className="absolute inset-0 hero-gradient opacity-90"></div>
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="animate-slide-up">
-              <h1 className="hero-text text-4xl lg:text-6xl mb-6 leading-tight">
+            <div className="animate-slide-up text-center">
+              <h1 className="text-4xl lg:text-6xl mb-6 leading-tight font-bold text-text-primary">
                 Redefine Contact Management with{" "}
                 <span className="text-gradient-accent">AI</span>
               </h1>
-              <p className="text-xl text-white/90 mb-8 leading-relaxed">
+              <p className="text-xl text-text-secondary mb-8 leading-relaxed max-w-3xl mx-auto">
                 Transform visiting cards into intelligent, searchable contact databases using advanced computer vision and semantic search technology
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -203,12 +203,12 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 hero-gradient">
+      <section className="py-20 bg-gradient-to-br from-primary-50 to-secondary-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="hero-text text-3xl lg:text-5xl mb-6">
+          <h2 className="text-3xl lg:text-5xl mb-6 font-bold text-primary">
             Ready to Transform Your Contact Management?
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-text-secondary mb-8 max-w-2xl mx-auto">
             Join hundreds of professionals who have revolutionized how they manage and search their contacts with AI
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
