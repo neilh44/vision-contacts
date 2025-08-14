@@ -9,7 +9,7 @@ const Pricing = () => {
   const pricingTiers = [
     {
       name: "Starter",
-      price: "₹2,000",
+      price: "₹20,000",
       period: "/year",
       description: "Perfect for individuals and small professionals",
       icon: <Zap className="h-8 w-8" />,
@@ -27,7 +27,7 @@ const Pricing = () => {
     },
     {
       name: "Professional",
-      price: "₹3,500",
+      price: "₹35,500",
       period: "/year",
       description: "Ideal for growing businesses and teams",
       icon: <Star className="h-8 w-8" />,
@@ -47,7 +47,7 @@ const Pricing = () => {
     },
     {
       name: "Enterprise",
-      price: "₹6,000",
+      price: "₹60,000",
       period: "/year",
       description: "For large organizations with advanced needs",
       icon: <Crown className="h-8 w-8" />,
